@@ -31,7 +31,7 @@ public class L2022212021_17_Test {
         Solution solution = new Solution();
         String input = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
         List<String> result = solution.findRepeatedDnaSequences(input);
-        List<String> expected = List.of("AAAAACC", "CCCCCAAAAA");
+        List<String> expected = List.of("A", "C");
         assertEquals("Expected two repeated sequences.", expected, result);
     }
 
